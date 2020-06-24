@@ -8,3 +8,103 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top_link {
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    font-family: "Akzidenz Grotesk BQ", sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header-top_link:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.header-top-lang {
+    width: 163px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-lang_item {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #000;
+    font-family: "Bebas";
+    padding: ;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header-top-lang_item:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.header-bottom_column {
+    width: 33.333%;
+}
+
+.header-bottom-menu {
+    width: 100%;
+}
+
+.header-bottom-menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom-menu-list li {
+    list-style-type: none;
+    display: inline;
+}
+
+.header-bottom-menu_item {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    font-family: "Akzidenz Grotesk BQ", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-bottom-text {
+    font-size: 8px;
+    letter-spacing: 8px;
+    line-height: 25px;
+    color: #000000;
+    font-family: "Bebas";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-bottom_column_contant {
+    text-align: center;
+}
